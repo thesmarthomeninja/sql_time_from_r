@@ -29,4 +29,4 @@ library(RODBC)
 cn <- odbcConnect("Test R")
 
 # Bombs away baby.
-test <- sqlQuery(cn, "<PASTE YOUR SQL QUERY HERE")
+test <- sqlQuery(cn, "<PASTE YOUR SQL QUERY HERE>")
